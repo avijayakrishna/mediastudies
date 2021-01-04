@@ -1,1 +1,1 @@
-# mediastudies
+# siddharthamedia
