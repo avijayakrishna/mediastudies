@@ -55,8 +55,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   background: #555;
 }
 
-
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -8403,7 +8401,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 38px;
+  font-size: 22px;
   padding: 0;
   line-height: 1;
   text-transform: uppercase; }
@@ -8931,11 +8929,18 @@ h1, h2, h3, h4, h5,
   height: 275px;
   position: relative;
   display: block; }
-
+.blog-view{
+  margin-top: 20px;
+}
 @media (min-width: 768px) {
   .blog-entry {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }    
+   }
 
+   @media screen and (min-width : 320px) and  (max-width : 767px) {
+   .navbar-brand {font-size: 13px !important;white-space: inherit !important;}
+   .navbar-brand span{font-size: 8px !important;}
+     }
 @media (max-width: 767.98px) {
   .blog-entry {
     margin-bottom: 30px; } }
