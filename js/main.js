@@ -65,10 +65,10 @@
 		});
 		$('.carousel-testimony').owlCarousel({
 			autoplay: true,
-			//center: true,
+			center: true,
 			loop: true,
 			items:1,
-			margin: 20,
+			margin: 30,
 			stagePadding: 0,
 			nav: false,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
@@ -80,7 +80,7 @@
 					items: 1
 				},
 				1000:{
-					items: 1
+					items: 2
 				}
 			}
 		});
