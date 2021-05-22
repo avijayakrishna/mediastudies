@@ -9573,7 +9573,8 @@ textarea.form-control {
   .appointment-form .form-group .btn {
     width: 100%;
     display: block !important; }
-
+.form-control option{
+color:#000;}
 .appointment-form .form-control {
   border: transparent !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
