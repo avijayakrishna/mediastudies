@@ -3534,6 +3534,8 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
+  
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -8171,12 +8173,25 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+    .fixed-btn {
+      position:fixed;
+      top:50%;
+      z-index:111;
+      left:-166px;
+      transform: rotate(90deg);
+    }
+    .fixed-btn a:hover{
+      background-color: #002752 !important;
+      border:#002752 !important;
+      color:#fff !important;
+    }
 
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #fff;
-  font-size: 16px;
-  line-height: 1.8;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
   font-weight: 400;
   color: #666666; }
   body.menu-show {
@@ -8216,7 +8231,7 @@ h1, h2, h3, h4, h5,
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
 	position: relative;
-    top: 12px;
+    /* top: 12px; */
     left: 9px;
     border-radius: 50%; }
     .topper .icon span {
@@ -8434,7 +8449,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 22px;
+  font-size: 20px;
   padding: 0;
   line-height: 1;
   text-transform: uppercase; }
@@ -8921,7 +8936,7 @@ h1, h2, h3, h4, h5,
   .staff:hover .img, .staff:focus .img {
     margin-top: -10px; }
   .staff:hover .text h3, .staff:focus .text h3 {
-    color: #fd5f00; }
+    color: #fd5f00; }   
 
 .ftco-social {
   padding: 0; }
@@ -9451,7 +9466,16 @@ textarea.form-control {
 .video {
   width: 100%;
   position: relative; }
-
+  .heade-social-icon li a {
+    background: #fd5f00;
+    color: #fff !important;
+    border-radius: 20px;
+}
+.heade-social-icon li a:hover {
+    background: #dc3545 !important;
+    color: #fff !important;
+    border-radius: 20px;
+}
 .icon-video {
   width: 80px;
   height: 80px;
