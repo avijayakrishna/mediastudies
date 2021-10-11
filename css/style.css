@@ -2551,7 +2551,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 90%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -8191,7 +8191,7 @@ body {
   background: #fff;
   font-size: 15px;
   line-height: 25px;
-  text-align: justify;
+  text-align: left;
   font-weight: 400;
   color: #666666; }
   body.menu-show {
@@ -8481,7 +8481,8 @@ h1, h2, h3, h4, h5,
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 300px; }
       .hero-wrap.hero-wrap-2 .slider-text .bread {
-        font-weight: 900;
+        font-weight: 600;
+        text-shadow: 25px 1px 17px #000;
         color: #fff; }
       .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs {
         text-transform: uppercase;
@@ -9540,6 +9541,7 @@ textarea.form-control {
     font-weight: 600;
     font-size: 40px;
     color: #fff;
+    padding:15px 0px;
     display: block; }
   .ftco-counter .text span {
     display: block;
@@ -9978,3 +9980,52 @@ display: flex;
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    /* Murugesh added css */
+
+    .profile .name {
+      font-size: 20px;
+      font-weight: 500;
+      color: #fd5f00;
+  }
+  .profile {
+      text-align: center;
+      padding: 15px 0px;
+  }
+  .designation {
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.heading {
+  font-size: 20px;
+  padding: 15px 0px;
+  font-weight: 500;
+  color: #333;
+}
+.all-pages h5 {
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.inside-list li {
+  margin-left: -10px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.inside li {
+  margin-left: -10px;
+  font-size: 14px;
+}
+.inside li ul {
+  margin-bottom: 10px;
+}
+.table-bordered th, .table-bordered td {
+  border: 1px solid #dee2e6;
+  font-size: 13px;
+  line-height: 15px;
+  vertical-align: middle;
+}
