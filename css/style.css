@@ -8177,7 +8177,7 @@ a.text-dark:hover, a.text-dark:focus {
       position:fixed;
       top:50%;
       z-index:111;
-      right:-166px;
+      right:-150px;
       transform: rotate(90deg);
     }
     .fixed-btn a:hover{
